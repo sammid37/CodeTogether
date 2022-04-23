@@ -8,6 +8,8 @@ Estrutura simples para o site do Bot parar Discord "Pomodoro Bot", utilizando ap
 ### Etapa 2: 
 Estilização utilizando CSS.
 
+[Visualizar 🍅 Pomobot](https://sammid37.github.io/CodeTogether/pomobot/)
+
 ## Projeto 2: em breve
 _Em breve._
 
