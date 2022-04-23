@@ -5,27 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pomo Bot - Pomodoro no Discord</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="https://raw.githubusercontent.com/petccufpb/Code_Together_Projeto01/a5394b9db0c7cc97d494a7a76d6139afb5edeb94/arquivos-iniciais/imagens/logo.svg" alt="pomodoro-icon">
-        <br>
-        <a href="#">Discord</a>
-        <a href="#">Tutorial</a>
-        <a href="#">Open Source</a>
-        <a href="#">Comandos</a>
+    <header class="header">
+        <img class="header-logo" src="https://raw.githubusercontent.com/petccufpb/Code_Together_Projeto01/a5394b9db0c7cc97d494a7a76d6139afb5edeb94/arquivos-iniciais/imagens/logo.svg" alt="pomodoro-icon">
+        <nav class="header-menu">
+            <a href="#" class="header-menu-item">Discord</a>
+            <a href="#" class="header-menu-item">Tutorial</a>
+            <a href="#" class="header-menu-item">Open Source</a>
+            <a href="#" class="header-menu-item">Comandos</a>
+        </nav>
     </header>
-    <h1>Pomo Bot</h1>
-    <h2>Estude com pomodoro no Discord!</h2>
-    <input type="button" value="Me adicione!">
-    <br>
-    <img src="https://raw.githubusercontent.com/petccufpb/Code_Together_Projeto01/a5394b9db0c7cc97d494a7a76d6139afb5edeb94/arquivos-iniciais/imagens/pomobot.svg" alt="mascote">
-    <h3>O que ele faz por você?</h3>
-    <ol>
-        <li>Permite que você defina os intervalos de cada sessão de estudo</li>
-        <li>Possui um sistema de objetivos diários, semanais e de longo prazo</li>
-        <li>Permite que você organize as atividades de lazer que serão realizadas entre os intervalos</li>
-    </ol>
-    <footer><img src="https://raw.githubusercontent.com/petccufpb/Code_Together_Projeto01/a5394b9db0c7cc97d494a7a76d6139afb5edeb94/arquivos-iniciais/imagens/rodape.svg" alt="rodape"></footer>
+
+    <main class="content">
+        <section class="main-content">
+            <div class="main-content-text">
+                <h1>Pomo Bot</h1>
+                <h3>Estude com pomodoro no Discord!</h3>
+                    <input type="button" value="Me adicione!" class="main-content-btn">
+            </div>
+            <img src="https://raw.githubusercontent.com/petccufpb/Code_Together_Projeto01/a5394b9db0c7cc97d494a7a76d6139afb5edeb94/arquivos-iniciais/imagens/pomobot.svg" alt="mascote" class="main-content-img">
+        </section>
+
+        <section class="info-content">
+            <h3 class="info-title">O que ele faz por você?</h3>
+            <ol class="info-list">
+                <li>Permite que você <b>defina os intervalos</b> de cada sessão de estudo</li>
+                <li>Possui um <b>sistema de objetivos</b> diários, semanais e de longo prazo</li>
+                <li>Permite que você<b> organize as atividades de lazer</b> que serão realizadas entre os intervalos</li>
+            </ol>
+            
+        </section>
+    </main>
+
+    <footer class="footer"><img src="https://raw.githubusercontent.com/petccufpb/Code_Together_Projeto01/a5394b9db0c7cc97d494a7a76d6139afb5edeb94/arquivos-iniciais/imagens/rodape.svg" alt="rodape" class="footer-img"></footer>
 </body>
 </html>
